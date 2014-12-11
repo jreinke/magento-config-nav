@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Bubble_ConfigNav>
+            <version>1.0.0</version>
+        </Bubble_ConfigNav>
+    </modules>
+    <global>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <page_menu>Bubble_ConfigNav_Block_Adminhtml_Page_Menu</page_menu>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+</config>
