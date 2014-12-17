@@ -78,7 +78,7 @@ class Bubble_ConfigNav_Block_Adminhtml_Page_Menu extends Mage_Adminhtml_Block_Pa
                 $menu['config']['children'][$tab]['children'][$code] = array(
                     'label'         => $label,
                     'sort_order'    => $i,
-                    'url'           => $url->getUrl('*/system_config/', array('section' => $code)),
+                    'url'           => $url->getUrl('adminhtml/system_config/', array('section' => $code)),
                     'active'        => false,
                     'level'         => 2,
                 );
